@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Hello World"
+    return "Mensagem diferente de Hello World. :)"
 
 @app.route("/soma")
 def soma_valores():
